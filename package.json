@@ -6,8 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "nodemon server.js",
-    "dev": "cls && nodemon server.js",
-    "postinstall": "npm rebuild bcrypt --build-from-source"
+    "dev": "cls && nodemon server.js"
   },
   "author": "",
   "license": "ISC",
