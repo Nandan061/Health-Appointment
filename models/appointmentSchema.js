@@ -26,8 +26,8 @@ const appointmentSchema = new mongoose.Schema({
   nic: {
     type: String,
     required: [true, "NIC Is Required!"],
-    minLength: [13, "NIC Must Contain Exactly 13 Digits!"],
-    maxLength: [13, "NIC Must Contain Exactly 13 Digits!"],
+    minLength: [5, "NIC Must Contain Exactly 5 Digits!"],
+    maxLength: [5, "NIC Must Contain Exactly 5 Digits!"],
   },
   dob: {
     type: Date,

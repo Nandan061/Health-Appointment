@@ -53,6 +53,9 @@ export const postAppointment = catchAsyncErrors(async (req, res, next) => {
       )
     );
   }
+
+  // Create the Appointment
+  
   const doctorId = isConflict[0]._id;
   const patientId = req.user._id;
   const appointment = await Appointment.create({
