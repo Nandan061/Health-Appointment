@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "dev": "cls && nodemon server.js",
+    "dev": "nodemon index.js",
     "postinstall": "npm rebuild bcrypt --build-from-source"
   },
   "author": "",
@@ -26,9 +26,5 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.4"
-  },
-  "optionalDependencies": {
-  "bcrypt": "^5.0.1"
-}
-
+  }
 }
